@@ -1,0 +1,681 @@
+.main-contanier{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+header{
+    margin-top: 35px;
+}
+.contanier{
+    display: block;
+}
+.contanier .head{
+    display: flex;
+    justify-content: space-between;
+}
+.head img{
+    width: 41px;
+    height: 41px;
+    padding-top: 1%;
+}
+.head nav a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: darkgray;
+    margin: 30px;
+}
+nav a:hover{
+    color: black;
+}
+.head nav button{
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 14px 46px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+
+}
+.head nav .login{
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+    background-color: #FFFFFF;
+    margin-right: 15px;
+}
+.head nav .register{
+    background: #FB8F1D;
+    mix-blend-mode: normal;
+    color: #FFFFFF;
+}
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.feature h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+    mix-blend-mode: normal;
+    width: 500px;
+}
+.feature h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+    margin-top: 75px;
+}
+.feature .rect{
+    width: 200px;
+    height: 100px;
+    background: #202336;
+    border-radius: 4px;
+    Width:32px;
+    Height:2px;
+}
+.table {
+    margin-top: 50px;
+}
+.table select{
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 6px;
+    width: 220px;
+    height: 52px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #4A4C53;;
+}
+.head-section .explore{
+    background: #FB8F1D;
+    border-radius: 8px;
+    Width :180px;
+    Height :52px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 26px;
+    
+}
+.table #loc
+{
+    margin: 0px 30px 35px 0px;
+}
+.table #Grade
+{
+    margin: 0px 30px 35px 0px;
+}
+.section1{
+    display: flex;
+    margin-top:250px;
+    justify-content: space-between;
+}
+.section1 .text1{
+    margin-top: 7%;
+}
+.section1 h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    mix-blend-mode: normal;
+    width: 400px;
+}
+.section1 p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    width: 440px;
+}
+.section1 button{
+    background: #FB8F1D;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    border: none;
+    Width :180px;
+    Height :52px;
+    margin-top: 40px;
+}
+.section2{
+    display: block;
+    margin-top: 250px;
+    width: auto;
+}
+.section2-text{
+    display: flex;
+    justify-content: space-between;
+}
+.section2 h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.section2 a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.section2-text a img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.section2 .imagecards{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.section2 .imagecards img{
+    border-radius: 8px;
+}
+.section2 .rajatext{
+    position: relative;
+}
+.rajatext .text{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 0px 6px 0px 0px;
+    top:255px;
+     width: 116px;
+     height: 77px;
+ 
+}
+.rajatext .text h5{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #042521;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 12%;
+}
+.rajatext .text p{
+    color: #7D7987;
+    margin-top: 5%;
+}
+.section2 .fanjingshan{
+    position: relative;
+}
+.fanjingshan .text1{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 0px 6px 0px 0px;
+    top:255px;
+     width: 116px;
+     height: 77px;
+ 
+}
+.fanjingshan .text1 h5{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #042521;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 12%;
+}
+.fanjingshan .text1 p{
+    color: #7D7987;
+    margin-top: 5%;
+}
+.section2 .Vevey{
+    position: relative;
+}
+.Vevey .text2{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 0px 6px 0px 0px;
+    top:255px;
+     width: 116px;
+     height: 77px;
+ 
+}
+.Vevey .text2 h5{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #042521;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 12%;
+}
+.Vevey .text2 p{
+    color: #7D7987;
+    margin-top: 5%;
+}
+.section2 .Skadar{
+    position: relative;
+}
+.Skadar .text3{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 0px 6px 0px 0px;
+    top:255px;
+     width: 116px;
+     height: 77px;
+ 
+}
+.Skadar .text3 h5{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #042521;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 12%;
+}
+.Skadar .text3 p{
+    color: #7D7987;
+    margin-top: 5%;
+}
+
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+.section3 h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    width: 400px;
+
+}
+.section3 p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    width: 415px;
+}
+.section3 button{
+    background: #FB8F1D;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    border: none;
+    Width :180px;
+    Height :52px;
+    margin-top: 40px;
+}
+.section3 .text3{
+    margin-top: 9%;
+}
+.section4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    padding-bottom: 200px;
+}
+.section4 .image img{
+    background: #C4C4C4;
+    border-radius: 14px;
+    Width :384px;
+    Height :491px;
+    margin-top: 140px;
+}
+.section4 .image{
+    position: relative;
+}
+.image .smallDiv{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 16px 0px 0px 0px;
+    Width: 132px;
+    height: 60px;
+    bottom: 0%;
+    right: 0%;
+}
+.section4 h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.section4 p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    mix-blend-mode: normal;
+    width: 500px;
+    margin-top: 25px;
+    
+}
+.section4 img{
+    margin-top: 145px;
+}
+.section4 h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-top: 40px;
+    margin-bottom: 1px;
+}
+.section4 span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+    mix-blend-mode: normal;
+   
+}
+.section5{
+    display: block;
+    margin-top: 250px;
+    margin: auto;
+    width: 80%;
+}
+.section5 .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.heading a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+}
+.heading a img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.section5 .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.cards img{
+    background: #C4C4C4;
+    border-radius: 8px;
+    Width :261px;
+    Height :232px;
+}
+.card1 .text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    width: 225px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.card1 .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    width: 240px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+.card1 .text a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+}
+.card2 .text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    width: 250px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.card2 .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    width: 250px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+.card2 .text a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+}
+.card3 .text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    width: 250px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.card3 .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    width: 267px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+.card3 .text a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+}
+.card4 .text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    width: 250px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.card4 .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    width: 250px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+.card4 .text a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+}
+footer{
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+footer .content{
+    padding-top: 50px;
+}
+footer .info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.info img{
+    margin-top: 20px;
+}
+.info p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 330px;
+    color: #848484;
+    margin-top: 60px;
+}
+.info .p2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;    
+    color: #848484;
+    margin-top: 36px;
+    width: 347px;
+}
+.info h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.info nav{
+    display: grid;
+
+
+}
+.info nav a{
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #848484;
+    mix-blend-mode: normal;
+}
+footer .social{
+    margin-top: 11px;
+
+}
+.social nav{
+    position: absolute;
+    left: 40%;
+}
+.social nav i{
+    margin: 20px;
+}
+.content .line{
+    width: 1219px;
+    height: 0.6px;
+  
+    background: #C4C4C4;
+}
+body .background{
+    position: absolute;
+    Width: 100%;
+    Height :482px;
+    background: #F9F9FB;
+    margin-top: 270px;
+}
